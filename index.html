@@ -94,52 +94,11 @@
         <section id="movies">
             <h2>Featured Movies</h2>
             <!-- Add movie content here -->
-            <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RXP Movies</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #121212;
-            color: white;
-            text-align: center;
-        }
+<video id="myVideo" controls></video>
 
-        /* Styling for the video player */
-        .video-container {
-            margin: 50px auto;
-            max-width: 800px;
-            border: 2px solid #555;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-        }
-
-        video {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
-    </style>
-</head>
-<body>
-
-    <header>
-        <h1>RXP Movies</h1>
-    </header>
-
-    <div class="video-container">
-        <!-- Video player -->
-        <video controls>
-            <source src="http://127.0.0.1:44727/Content/8949ECE93D7BB1112353E98D34CCE23996ADF2A7-0.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
-
-</body>
-</html>
+<script>
+    document.getElementById("myVideo").src = "http://127.0.0.1:44727/Content/8949ECE93D7BB1112353E98D34CCE23996ADF2A7-0.mp4";
+</script>
             
         <section id="about">
             <h2>About Us</h2>
