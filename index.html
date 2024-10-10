@@ -1,14 +1,111 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>RXP Movies</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: white;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #1c1c1c;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #555;
+        }
+
+        /* Site Name (Logo) */
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #ff5733;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+
+        /* Navigation Menu */
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ff5733;
+        }
+
+        /* Media Query for Responsive Design */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>RXP Movies</h1>
-    <p>RXP Movies allows you to watch movies in high quality for free.
-    RXP Movies is created by @real.xylo on discord, and is a part of the RXP Community!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dignissimos, rem officiis aspernatur sapiente beatae delectus labore! Veritatis, temporibus! Voluptas illum velit placeat asperiores sunt veniam laudantium facere omnis quis!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus inventore vel tempore accusamus facilis ullam? Accusamus laudantium dicta sapiente obcaecati atque soluta vero et! Totam suscipit esse incidunt ducimus placeat.</p>
+
+    <header>
+        <!-- Logo/Site Name -->
+        <a href="#" class="logo">RXP Movies</a>
+
+        <!-- Navigation Menu -->
+        <nav>
+            <ul>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://discord.com/" target="_blank">Discord</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Optional Main Content -->
+    <main>
+        <section id="movies">
+            <h2>Featured Movies</h2>
+            <!-- Add movie content here -->
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <!-- Add About Us content here -->
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <!-- Add contact details here -->
+        </section>
+    </main>
+
 </body>
 </html>
