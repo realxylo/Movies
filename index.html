@@ -94,61 +94,7 @@
         <section id="movies">
             <h2>Featured Movies</h2>
             <!-- Add movie content here -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Truman Show</title>
-    <style>
-        /* Style for the button */
-        .video-button {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 300px;
-            height: 200px;
-            background-image: url('your-image-file.png'); /* Replace with your image */
-            background-size: cover;
-            background-position: center;
-            border: none;
-            cursor: pointer;
-            color: white;
-            font-size: 24px;
-            font-weight: bold;
-            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-        }
-        /* Hide the video initially */
-        #myVideo {
-            display: none;
-            width: 100%;
-            height: auto;
-        }
-    </style>
-</head>
-<body>
 
-    <!-- Button with background image -->
-    <button class="video-button" onclick="playVideo()">The Truman Show</button>
-
-    <!-- Video element -->
-    <video id="myVideo" controls>
-        <source src="http://127.0.0.1:44727/Content/8949ECE93D7BB1112353E98D34CCE23996ADF2A7-0.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-
-    <script>
-        function playVideo() {
-            // Show and play the video
-            var video = document.getElementById('myVideo');
-            video.style.display = 'block';
-            video.play();
-        }
-    </script>
-
-</body>
-</html>
-            
         <section id="about">
             <h2>About Us</h2>
             <!-- Add About Us content here -->
